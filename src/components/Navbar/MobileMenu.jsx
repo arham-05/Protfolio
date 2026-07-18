@@ -3,14 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { IoClose } from "react-icons/io5";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import resume from "../../assets/arham.pdf";
-
-const navLinks = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
-];
+import { navLinks } from "./NavPages";
 
 
 

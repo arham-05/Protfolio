@@ -4,24 +4,15 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { useState, useEffect } from "react"
 import { HiOutlineMenuAlt3 } from "react-icons/hi"
 // import MobileMenu from "../Navbar/MobileMenu"
-import { navLinks } from "./navLinks"
+import { navLinks } from "./NavPages";
 import MobileMenu from "./MobileMenu"
 import resume from "../../assets/arham.pdf"
-import { useLenis } from "lenis/react";
 import NavbarLogo from "./NavLogo"
 
 {
   /* <navLinks /> */
 }
 export default function Navbar() {
-
-  const lenis = useLenis();
-
-  const handleNavClick = (id) => {
-    lenis?.scrollTo(`#${id}`, { offset: -80 }); // -80 = navbar height offset
-  };
-
-
   const [openMenu, setOpenMenu] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
@@ -77,7 +68,7 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl font-bricolage mx-auto flex items-center justify-between px-6 lg:px-10 py-4">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 py-4">
         {/* Logo */}
        <NavbarLogo />
         {/* Desktop Menu */}
