@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { IoClose } from "react-icons/io5";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import resume from "../../assets/arhamRESUME.pdf";
+import resume from "../../assets/arham.pdf";
 import { navLinks } from "./NavPages";
 
 export default function MobileMenu({ open, setOpen }) {

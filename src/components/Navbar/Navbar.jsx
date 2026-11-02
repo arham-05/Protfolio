@@ -6,7 +6,7 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi"
 // import MobileMenu from "../Navbar/MobileMenu"
 import { navLinks } from "./NavPages";
 import MobileMenu from "./MobileMenu"
-import resume from "../../assets/ArhamRESUME.pdf"
+import resume from "../../assets/arham.pdf"
 import NavbarLogo from "./NavLogo"
 
 {
