@@ -6,7 +6,7 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi"
 // import MobileMenu from "../Navbar/MobileMenu"
 import { navLinks } from "./NavPages";
 import MobileMenu from "./MobileMenu"
-import resume from "../../assets/arham.pdf"
+import resume from "../../assets/ArhamRESUME.pdf"
 import NavbarLogo from "./NavLogo"
 
 {
@@ -165,7 +165,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
             href={resume}
-            download="Arham_Ansari_Resume.pdf"
+            download="ArhamResume.pdf"
             className="px-6 py-2 rounded-full bg-gradient-to-r from-blue-300 to-purple-400 text-white font-semibold shadow-lg hover:shadow-blue-500/40 transition"
           >
             Resume
